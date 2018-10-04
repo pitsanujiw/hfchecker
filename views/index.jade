@@ -9,7 +9,7 @@ mixin nav_item2(href, active)
         block
 
 block body
-    +navbar-fixed("Hacktoberfest Progress Checker","navbar","inverse")
+    //- +navbar-fixed("Hacktoberfest Progress Checker","navbar","inverse")
         +nav_item("#","active") Home
         +nav_item2("https://hacktoberfest.digitalocean.com/#featured-projects") Featured Projects
         +nav_item2("https://github.com/search?l=&q=state%3Aopen+label%3Ahacktoberfest&ref=advsearch&type=Issues&utf8=%E2%9C%93") Browse all Projects
@@ -37,8 +37,8 @@ block body
         .row
             .col-md-4
                 form#ghform
-                    +input("text","ghuser","Github Username","Github Username","ghuser")
-                    +submit2("Check","default","checkbutton")
+                    //- +input("text","ghuser","Github Username","Github Username","ghuser")
+                    //- +submit2("Check","default","checkbutton")
 
         .row
             h3#total Total PR's: 0
